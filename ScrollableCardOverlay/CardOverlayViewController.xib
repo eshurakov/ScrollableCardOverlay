@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardOverlayViewController" customModule="ScrollableCardOverlay" customModuleProvider="target">
+            <connections>
+                <outlet property="backgroundView" destination="BdJ-lL-ap4" id="Qh4-Kx-k6R"/>
+                <outlet property="scrollView" destination="4nf-l6-mSd" id="S0f-XP-zDl"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BdJ-lL-ap4">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nf-l6-mSd">
+                    <rect key="frame" x="0.0" y="50" width="375" height="617"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UiI-Ls-1Ne">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1500.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKo-Hn-ZQj">
+                                    <rect key="frame" x="20" y="30" width="335" height="1440.5"/>
+                                    <mutableString key="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
+
+
+
+</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="fKo-Hn-ZQj" firstAttribute="top" secondItem="UiI-Ls-1Ne" secondAttribute="top" constant="30" id="CFy-0J-vUa"/>
+                                <constraint firstAttribute="trailing" secondItem="fKo-Hn-ZQj" secondAttribute="trailing" constant="20" id="QpA-qW-aq2"/>
+                                <constraint firstItem="fKo-Hn-ZQj" firstAttribute="leading" secondItem="UiI-Ls-1Ne" secondAttribute="leading" constant="20" id="S0T-EX-0qD"/>
+                                <constraint firstAttribute="bottom" secondItem="fKo-Hn-ZQj" secondAttribute="bottom" constant="30" id="dVc-1j-v76"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="UiI-Ls-1Ne" secondAttribute="trailing" id="83a-bD-KiI"/>
+                        <constraint firstItem="UiI-Ls-1Ne" firstAttribute="top" secondItem="4nf-l6-mSd" secondAttribute="top" id="jDx-Ec-AvI"/>
+                        <constraint firstItem="UiI-Ls-1Ne" firstAttribute="leading" secondItem="4nf-l6-mSd" secondAttribute="leading" id="s4P-yc-FXK"/>
+                        <constraint firstAttribute="bottom" secondItem="UiI-Ls-1Ne" secondAttribute="bottom" id="yWv-Ph-m4L"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="BdJ-lL-ap4" secondAttribute="bottom" id="6BF-bU-bWO"/>
+                <constraint firstItem="UiI-Ls-1Ne" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="6pz-N3-X3h"/>
+                <constraint firstItem="BdJ-lL-ap4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="9u1-p5-vM9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BdJ-lL-ap4" secondAttribute="trailing" id="C6s-9R-nKt"/>
+                <constraint firstItem="BdJ-lL-ap4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XVr-es-No2"/>
+                <constraint firstItem="4nf-l6-mSd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="cWe-ba-L5e"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4nf-l6-mSd" secondAttribute="trailing" id="hy0-fc-8lw"/>
+                <constraint firstItem="4nf-l6-mSd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qGS-xd-Mda"/>
+                <constraint firstAttribute="bottom" secondItem="4nf-l6-mSd" secondAttribute="bottom" id="sQV-N0-s7T"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+        </view>
+    </objects>
+</document>

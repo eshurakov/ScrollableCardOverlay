@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6970494203A1DA2005DD427 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6970493203A1DA2005DD427 /* AppDelegate.swift */; };
+		A6970496203A1DA2005DD427 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6970495203A1DA2005DD427 /* ViewController.swift */; };
+		A6970499203A1DA2005DD427 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6970497203A1DA2005DD427 /* Main.storyboard */; };
+		A697049B203A1DA2005DD427 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A697049A203A1DA2005DD427 /* Assets.xcassets */; };
+		A697049E203A1DA2005DD427 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A697049C203A1DA2005DD427 /* LaunchScreen.storyboard */; };
+		A69704A7203A1F42005DD427 /* CardOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69704A5203A1F42005DD427 /* CardOverlayViewController.swift */; };
+		A69704A8203A1F42005DD427 /* CardOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A69704A6203A1F42005DD427 /* CardOverlayViewController.xib */; };
+		A69704AA203A215C005DD427 /* CardTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69704A9203A215C005DD427 /* CardTransitioningDelegate.swift */; };
+		A69704AC203A2180005DD427 /* CardInteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69704AB203A2180005DD427 /* CardInteractiveTransitioning.swift */; };
+		A69704AE203A232B005DD427 /* CardAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69704AD203A232B005DD427 /* CardAnimatedTransitioning.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A6970490203A1DA2005DD427 /* ScrollableCardOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableCardOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6970493203A1DA2005DD427 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6970495203A1DA2005DD427 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6970498203A1DA2005DD427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A697049A203A1DA2005DD427 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A697049D203A1DA2005DD427 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A697049F203A1DA2005DD427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A69704A5203A1F42005DD427 /* CardOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOverlayViewController.swift; sourceTree = "<group>"; };
+		A69704A6203A1F42005DD427 /* CardOverlayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardOverlayViewController.xib; sourceTree = "<group>"; };
+		A69704A9203A215C005DD427 /* CardTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransitioningDelegate.swift; sourceTree = "<group>"; };
+		A69704AB203A2180005DD427 /* CardInteractiveTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInteractiveTransitioning.swift; sourceTree = "<group>"; };
+		A69704AD203A232B005DD427 /* CardAnimatedTransitioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAnimatedTransitioning.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A697048D203A1DA2005DD427 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6970487203A1DA2005DD427 = {
+			isa = PBXGroup;
+			children = (
+				A6970492203A1DA2005DD427 /* ScrollableCardOverlay */,
+				A6970491203A1DA2005DD427 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6970491203A1DA2005DD427 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6970490203A1DA2005DD427 /* ScrollableCardOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6970492203A1DA2005DD427 /* ScrollableCardOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				A6970493203A1DA2005DD427 /* AppDelegate.swift */,
+				A6970495203A1DA2005DD427 /* ViewController.swift */,
+				A69704A5203A1F42005DD427 /* CardOverlayViewController.swift */,
+				A69704A6203A1F42005DD427 /* CardOverlayViewController.xib */,
+				A69704A9203A215C005DD427 /* CardTransitioningDelegate.swift */,
+				A69704AB203A2180005DD427 /* CardInteractiveTransitioning.swift */,
+				A69704AD203A232B005DD427 /* CardAnimatedTransitioning.swift */,
+				A6970497203A1DA2005DD427 /* Main.storyboard */,
+				A697049A203A1DA2005DD427 /* Assets.xcassets */,
+				A697049C203A1DA2005DD427 /* LaunchScreen.storyboard */,
+				A697049F203A1DA2005DD427 /* Info.plist */,
+			);
+			path = ScrollableCardOverlay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A697048F203A1DA2005DD427 /* ScrollableCardOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69704A2203A1DA3005DD427 /* Build configuration list for PBXNativeTarget "ScrollableCardOverlay" */;
+			buildPhases = (
+				A697048C203A1DA2005DD427 /* Sources */,
+				A697048D203A1DA2005DD427 /* Frameworks */,
+				A697048E203A1DA2005DD427 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableCardOverlay;
+			productName = ScrollableCardOverlay;
+			productReference = A6970490203A1DA2005DD427 /* ScrollableCardOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6970488203A1DA2005DD427 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Evgeny Shurakov";
+				TargetAttributes = {
+					A697048F203A1DA2005DD427 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A697048B203A1DA2005DD427 /* Build configuration list for PBXProject "ScrollableCardOverlay" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6970487203A1DA2005DD427;
+			productRefGroup = A6970491203A1DA2005DD427 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A697048F203A1DA2005DD427 /* ScrollableCardOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A697048E203A1DA2005DD427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A697049E203A1DA2005DD427 /* LaunchScreen.storyboard in Resources */,
+				A69704A8203A1F42005DD427 /* CardOverlayViewController.xib in Resources */,
+				A697049B203A1DA2005DD427 /* Assets.xcassets in Resources */,
+				A6970499203A1DA2005DD427 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A697048C203A1DA2005DD427 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69704AC203A2180005DD427 /* CardInteractiveTransitioning.swift in Sources */,
+				A69704AA203A215C005DD427 /* CardTransitioningDelegate.swift in Sources */,
+				A69704AE203A232B005DD427 /* CardAnimatedTransitioning.swift in Sources */,
+				A69704A7203A1F42005DD427 /* CardOverlayViewController.swift in Sources */,
+				A6970496203A1DA2005DD427 /* ViewController.swift in Sources */,
+				A6970494203A1DA2005DD427 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6970497203A1DA2005DD427 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6970498203A1DA2005DD427 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A697049C203A1DA2005DD427 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A697049D203A1DA2005DD427 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A69704A0203A1DA2005DD427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A69704A1203A1DA2005DD427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A69704A3203A1DA3005DD427 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L83T9A8ZN;
+				INFOPLIST_FILE = ScrollableCardOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.shurakov.ScrollableCardOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A69704A4203A1DA3005DD427 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3L83T9A8ZN;
+				INFOPLIST_FILE = ScrollableCardOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = name.shurakov.ScrollableCardOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A697048B203A1DA2005DD427 /* Build configuration list for PBXProject "ScrollableCardOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69704A0203A1DA2005DD427 /* Debug */,
+				A69704A1203A1DA2005DD427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69704A2203A1DA3005DD427 /* Build configuration list for PBXNativeTarget "ScrollableCardOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A69704A3203A1DA3005DD427 /* Debug */,
+				A69704A4203A1DA3005DD427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6970488203A1DA2005DD427 /* Project object */;
+}
